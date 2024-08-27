@@ -8,11 +8,11 @@ template <typename Data>
 class Blockchain
 {
 public:
-    // Constructors
+    
     explicit Blockchain(const Block<Data> &genesisBlock); 
     Blockchain();                                                
 
-    // Public methods
+
     void addBlock(const Block<Data> &block); 
     Block<Data> getLatestBlock() const;     
 
